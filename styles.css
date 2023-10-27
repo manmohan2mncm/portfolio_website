@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.glossy-navbar {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(10px); 
+    padding: 10px 0;
+}
+
+.glossy-navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.glossy-navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.glossy-navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: background 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.project {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.rounded-git {
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rounded-link {
+    border: none;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes colorChange {
+    0% { background-color: #ff5733; }
+    50% { background-color: #33ff57; }
+    75% { background-color: #5733ff; }
+    100% {background-color: #ff5733;}
+}
+
+.color-changing-box {
+    background-color: #ff5733;
+    animation: colorChange 10s linear infinite; 
+}
